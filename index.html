@@ -7,31 +7,37 @@
         <meta name="author" content="Vitu">
         <meta name="description" content="site de perifericos">
         <meta name="keywords" content="html5, tecnologia, computadores">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css"
-        href="desafio.css">
+        href="assets/css/desafio.css">
     </head>
 <body>
     <header class="header">
-        <img id="logo" class="logo" src="logobrogo.png" alt="logo pagina">
+        <img id="logo" class="logo" src="assets/imagens/logo-brogo.png" alt="logo pagina">
         <nav class="menu">
-            <a href="http://imersaofs.unipe.edu.br" class="item-menu">Home</a>
-            <a href="http://imersaofs.unipe.edu.br/programacao/" class="item-menu">Produtos</a>
-            <a href="http://imersaofs.unipe.edu.br/contato/" class="item-menu">Contato</a>
-            <a href="" class="item-menu">Sobre</a>
+            <a id ="men1" href="" class="item-menu">Home</a>
+            <a id="men2" href="" class="item-menu">Produtos</a>
+            <a id="men3" href="" class="item-menu">Contato</a>
+            <a id="men4" href="" class="item-menu">Sobre</a>
         </nav>
     </header>
         <main class="important">
             <div class="pai">
                 <div id="son1">
-                    <h2>
-                        Se inscreva para receber <br> descontos irados!
-                    </h2>
+                    
                     <form class="formu" action="http://google.com/search" method="get">
                         <fieldset id="fieldform">
-                            <label for="nome">Informe seu nome</label>
-                            <input type="text" name="nome" id="nome"> 
-                            <label for="mail">Informe seu email</label>
-                            <input type="email" name="mail" id="mail">
+                            <h2 id="titform">
+                                Se inscreva para receber <br> descontos irados!
+                            </h2>
+                            
+                            <input placeholder="Informe o seu nome" type="text" name="nome" id="nome"> 
+                            
+                            <input placeholder="Digite seu email" type="email" name="mail" id="mail" required>
                             <button id="btn">Se Inscreva!</button>
                         </fieldset>
                     </form>
@@ -39,17 +45,19 @@
                 </div>
                 <div id="son2">
                     <h1 id="titulobrogo">BrogoTec</h1>
-                    <p id="son2para">Loja feita de gamer para gamer! 
-                        <br>
-                        Aqui você encontra tudo em perifericos gamers com o melhor preço do Brasil!
+                    <p id="son2para">
+                        <span>Loja feita de gamer para gamer!</span> 
+                        <span>Aqui você encontra tudo em perifericos gamers com o melhor preço do Brasil!</span>
                     </p>
-                    <img src="brogologo.png" id="brogo" alt="Brogo imagem">
+                    <img src="assets/imagens/logo-brogo.png" id="brogo" alt="Brogo imagem">
                 </div>
             </div>
         </main>
     
-    <footer>
-
+    <footer class="rodape">
+        <a  href="https://www.instagram.com/brogotec/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/BrogoTec/"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://br.linkedin.com/in/victor-loic-lemos-05860572"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </footer>
 </body>
 </html>
